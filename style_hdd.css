@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+    background-color: #2b8588;
+    color: white;
+    padding: 15px;
+    display: flex;
+}
+
+.tit {
+    margin: auto;
+    font-size: 45px;
+}
+
+.tp_box {
+    color: black;
+    border-radius: 10px;
+    margin: 15px;
+    font-size: 2rem;
+    padding: 5px;
+    background-color: rgb(253, 187, 145);
+}
+
+.obj_img {
+    display: flex;
+    justify-content: center;
+}
+
+.obj_img img {
+    width: 37%;
+    margin: 20px;
+}
+
+.info,
+.info li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin: 10px 50px;
+}
+.info li p{
+    margin-top: 5px;
+}
+.para,
+.links {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 30px;
+    margin: 10px 50px;
+}
+
+.para2,
+.para2 .in {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 30px;
+    margin: 10px 50px;
+}
+
+@media only screen and (max-width : 700px){
+    .tit{
+        width: 100%;
+        font-size: 25px;
+    }
+    .back{
+        height: 15px;
+        padding: 0px 10px;
+    }
+    .tp_box , .info , .info li , .para , .para2 , .para2 .in ,.links{
+        font-size: 15px;
+        margin: 10px 15px;
+    }
+}

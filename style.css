@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(110, 110, 202);
+}
+
+.logoname {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    padding:30px 0px;
+    color: white;
+}
+.dept{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    /* padding:30px 0px; */
+    color: white;
+}
+
+.logoimg img {
+    height: 130px;
+    border-radius: 10px;
+}
+
+/*  Section first  */
+.first {
+    margin: 25px 0;
+    padding-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.first-box {
+    max-width: 80%;
+    max-height: 42%;
+    margin: auto;
+    color: black;
+    font-size: 10px;
+}
+
+.demo-bg {
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    filter: blur(2.3px);
+}
+
+hr {
+    border: 3px solid black;
+}
+
+h2 {
+    margin: 25px 0;
+    font-size: 2rem;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.first-para {
+
+    font-size: 20px;
+    text-justify: auto;
+    font-weight: 600;
+    color: black;
+}
+
+/* section 2 */
+
+.second .row {
+    margin: auto;
+    max-width: 70%;
+    display: flex;
+}
+
+.second .column {
+    margin: 10px 20px;
+    justify-content: space-between;
+}
+
+.second .column img {
+    border-radius: 20px;
+}
+
+.column {
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.Button {
+    background: skyblue;
+    color: darkblue;
+    border-radius: 8px;
+    border-color: skyblue;
+    padding: 4px;
+    font-size: 21px;
+}
+
+.b {
+    display: flex;
+    justify-content: center;
+}
+
+.column img:hover {
+    transform: scale(1.02);
+}
+
+.Button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Respoinsive */
+@media only screen and (max-width : 500px) {
+    .header{
+        height: 80px;
+        padding: 5px 0px;
+    }
+    .logoname , .dept{
+        font-size:8px;
+    }
+    .header img{
+        height: 40px;
+        margin: auto 0px;
+    }
+    .logoimg img{
+        height: 40px;
+        margin: 20px 0px;
+    }
+    .demo-bg{
+        height:34rem;
+    }
+    .first-box h2{
+        font-size: 1.5rem;
+    }
+    .first-box{
+        height: 33rem;
+    }
+    .first-para{
+        font-size: 12px;
+    }
+    .Button{
+        font-size: 8px;
+    }
+    .column{
+        border-radius: 2px;
+    }
+    .second .column img {
+        border-radius: 5px;
+    }
+}
